@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Temperature Description.</title>
+        <script type = "application/ld+json">
+            {
+                "@context": "https://schema.org/Room"
+                "@type": "Room",
+                "accomodationCategory" : "University Floor",    
+                "roomSize" : "50 MTK",
+                "smokingAllowed" : 0,
+                "numberOfBathroomsTotal" : 0,
+                "permittedUsage" : "Course/Study Purpose",
+                "amenityFeature" : "Projector, Air-Conditioners, 4 windows.",
+                "petsAllowed" : 0,
+                "temperature" : {
+                    "unit" : "degree celcius",
+                    "metric" : 14
+                },
+                "stateOfHeaters" : 1,
+                "stateOfWindows" : 0
+            }
+        </script>
+    </head>
+    <body>
+        <h3>describing temperature using JSON-LD in an HTML file, alternatively done by linking files
+            in the script tag.
+        </h3>
+    </body>
+</html>
+
+assume a JSON document that describes the current temperature reading of a room, 
+the current status of the (zero or more) windows, 
+and the current status of the (zero or more) heaters.
+ Adapt it so that it uses types from schema.org
