@@ -1,0 +1,1 @@
+I've used various extensions on my IDE (Visual Studio Code) to format the code the way it is, and it has been showing no errors and thus is valid.

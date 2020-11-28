@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <agendaListing title = "agenda">
+        <heading> Agenda de l'utilisateur LEFRONCOIS Maxime Septembere 2020</heading>
+            <rowOne title = "schedule-description">
+                <bookIcon>Closed</bookIcon>
+                <titre>Cours MASTER CYBER-PHYSICAL SOCIAL SYSTEMS - M1 UML - Multi-Agent Programming</titre>
+                <type>Cours</type>
+                <statut>Actif</statut>
+                <Date>29/09/2020</Date>
+                <Debut>10h15</Debut>
+                <Fin>11h45</Fin>
+            </rowOne>
+            <rowTwo title = "schedule-description">
+                <bookIcon>Closed</bookIcon>
+                <titre>Cours MASTER CYBER-PHYSICAL SOCIAL SYSTEMS - M1 UML - Multi-Agent Programming</titre>
+                <type>Cours</type>
+                <statut>Actif</statut>
+                <Date>29/09/2020</Date>
+                <Debut>08h30</Debut>
+                <Fin>10h00</Fin>
+            </rowTwo>
+            <rowThree title = "schedule-description">
+                <bookIcon>Closed</bookIcon>
+                <titre>Cours BIG DATA 3A - Donnees massives 2</titre>
+                <type>Cours</type>
+                <statut>Actif</statut>
+                <Date>28/09/2020</Date>
+                <Debut>10h15</Debut>
+                <Fin>12h15</Fin>
+            </rowThree>
+            <rowFour title = "schedule-description">
+                <bookIcon>Closed</bookIcon>
+                <titre>Cours BIG DATA 3A - Donnees massives 2</titre>
+                <type>Cours</type>
+                <statut>Actif</statut>
+                <Date>28/09/2020</Date>
+                <Debut>08h00</Debut>
+                <Fin>10h00</Fin>
+            </rowFour>
+            <rowFive title = "schedule-description">
+                <bookIcon>Closed</bookIcon>
+                <titre>Cours BIG DATA 3A - Donnees massives 2</titre>
+                <type>Cours</type>
+                <statut>Actif</statut>
+                <Date>21/09/2020</Date>
+                <Debut>10h15</Debut>
+                <Fin>12h15</Fin>
+            </rowFive>
+            <rowSix title = "schedule-description">
+                <bookIcon>Closed</bookIcon>
+                <titre>Cours BIG DATA 3A - Donnees massives 2</titre>
+                <type>Cours</type>
+                <statut>Actif</statut>
+                <Date>21/09/2020</Date>
+                <Debut>08h00</Debut>
+                <Fin>10h00</Fin>
+            </rowSix>
+            <rowSeven title = "schedule-description">
+                <bookIcon>Closed</bookIcon>
+                <titre>Cours INGENIERIE ET INTEROPERABILITIE DES INFORMATIQUES - Socle technique de developpment logiciel</titre>
+                <type>Cours</type>
+                <statut>Actif</statut>
+                <Date>11/09/2020</Date>
+                <Debut>10h15</Debut>
+                <Fin>11h45</Fin>
+            </rowSeven>
+            <rowEight title = "schedule-description">
+                <bookIcon>Closed</bookIcon>
+                <titre>Cours INGENIERIE ET INTEROPERABILITIE DES INFORMATIQUES - Socle technique de developpment logiciel</titre>
+                <type>Cours</type>
+                <statut>Actif</statut>
+                <Date>11/09/2020</Date>
+                <Debut>08h30</Debut>
+                <Fin>10h00</Fin>
+            </rowEight>
+            <rowNine title = "schedule-description">
+                <bookIcon>Open</bookIcon>
+                <titre>Cours ICM - Formalisation pour la programmation.</titre>
+                <type>TP/TD</type>
+                <statut>Actif</statut>
+                <Date>09/09/2020</Date>
+                <Debut>14h45</Debut>
+                <Fin>16h45</Fin>
+            </rowNine>
+            <rowTen title = "schedule-description">
+                <bookIcon>Closed</bookIcon>
+                <titre>Cours ICM - Formalisation pour la programmation</titre>
+                <type>Cours</type>
+                <statut>Actif</statut>
+                <Date>09/09/2020</Date>
+                <Debut>13h30</Debut>
+                <Fin>14h30</Fin>
+            </rowTen>
+    </agendaListing>

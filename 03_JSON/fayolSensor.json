@@ -1,0 +1,15 @@
+{
+    "location":{
+        "institution": "Ecole Nationale Superieure des Mines de Saint-Etienne",
+        "building":"for Fayol building",
+        "rue":"Rue Pierre et Dominique Ponchardier",
+        "floor": "4th floor"
+    },
+    "sensor-info":{
+        "number": 3,
+        "base-id": 3,
+        "light": 289,
+        "humidity":27.10,
+        "temperature":31.50
+    }
+}

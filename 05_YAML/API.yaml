@@ -1,0 +1,65 @@
+YAMLapi : 1.2.3
+info : 
+  title : Simple YAML API
+  description : YAML API to read and update the resources.
+  version : 3.0.7
+servers :
+  - url: http://api.example.org/v3/
+    description : base URL to get information from the API.
+paths :
+  /storeys:
+    get:
+      summary : return the resources of storeys in fayol building.
+      description : 
+      responses:
+        '200':
+          description: get the list of storeys in the building in JSON  
+          content:  
+            application/json:
+              schema:
+                type : array
+                items:
+                  type : string
+  /room/id=$123:
+    get :
+      summary : return the list of rooms.
+      description:
+      responses:
+        '200':
+          description: get the list of the rooms in building in JSON.
+          content:
+            application/json:
+              schema:
+                type : array
+                items:
+                  type : string
+  /room/id=$123/room_id=$245:
+    get:
+      summary : get the list of resources in the rooms.
+      description :
+      responses:
+        '200':
+          description : get a list of heaters/temperature/windows in JSON.
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  type: string
+  /room/id=$123/room_id=$243:
+    put:
+      summary : to change one of the elements in the room.
+      description :
+      responses :
+        '205':
+          description : change the element.
+          content :
+            application/json:
+              schema:
+                type: array
+                items:
+                  type : string
+
+
+
+

@@ -1,0 +1,38 @@
+{
+    "location":{
+        "city": "Saint-Etienne",
+        "country":"France"
+    },
+    "time-metrics":{
+        "time":"12:15",
+        "time-format":"12hr",
+        "period":"AM",
+        "date": "Nov 28"
+    },
+    "weather":{
+        "temperature":3,
+        "scale":"Celcius",
+        "description": "Feels like 1 degree. Clear sky. Light air.",
+        "rain-description":"No precepitation within an hour"
+    },
+    "wind":{
+        "speed": 1,
+        "unit": "metre/second",
+        "direction":"North"
+    },
+    "pressure":{
+        "metric": 1015,
+        "unit": "hPa"
+    },
+    "humidity":{
+        "amount": "93%"
+    },
+    "dew-point":{
+        "temperature": 2,
+        "unit":"Celcius"
+    },
+    "visibility":{
+        "metric": 10,
+        "unit": "kilometres"
+    }
+}
