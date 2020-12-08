@@ -1,0 +1,22 @@
+<!-- Queries here are related to the XML document in the folder '04_XML/agenda.xml'
+    This will be an XPath.-->
+
+This is a text file as it was unclear where to write 'just' the queries in.
+
+Query 1:
+        What is the starting time of the second course?
+Solution :  /agendaListing[@title="agenda"]/row[2]/Debut
+
+Query 2:  
+        What is the starting time of the TP/TD on 09/09/2020?
+Solution : /agendaListing[@title="agenda"]/row[9]/Debut[@Name="class-start"]/text()
+Query 3: 
+        What are the names of the courses occurring after 25/09/2020?
+Solution : /agendaListing[@title="agenda]/row[<5]/titre/text()
+
+Query 4:
+        What is the duration of the TP/TD on 09/09/2020 ?
+Solution : /agendaListing[@title="agenda"]/row[9]/Debut[@Name="class-start"]/text() - /agendaListing[@title="agenda"]/row[9]/Fin/text()
+        (I'm not sure if this is correct, but I read that subtraction expressions along with addition, multiplication and division are available in XPath.)
+
+

@@ -65,9 +65,29 @@
                 ]
               },
               "windDirection": {
-                "type": ["integer", "null"],
+                "type": ["integer", "null", "string"],
                 "minimum": 0,
-                "maximum": 360
+                "maximum": 360,
+                "directions" : [
+                    "NO",
+                    "N",
+                    "NE",
+                    "E",
+                    "SE",
+                    "S",
+                    "SO"
+                ]
+              },
+              "weather-slots" : {
+                "type" : ["string"],
+                "slots" : [
+                    "0600->0900",
+                    "0900->1200",
+                    "1200->1500",
+                    "1500->1800",
+                    "1800->2100",
+                    "2100->0000"
+                ]
               },
               "windSpeed": {
                 "type": ["number", "null"],

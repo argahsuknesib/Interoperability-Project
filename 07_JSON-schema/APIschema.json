@@ -1,0 +1,249 @@
+{
+    "type": "object",
+    "required": [],
+    "properties": {
+      "JSONapi": {
+        "type": "string"
+      },
+      "info": {
+        "type": "object",
+        "required": [],
+        "properties": {
+          "title": {
+            "type": "string"
+          },
+          "description": {
+            "type": "string"
+          },
+          "version": {
+            "type": "string"
+          }
+        }
+      },
+      "servers": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "required": [],
+          "properties": {
+            "url": {
+              "type": "string"
+            },
+            "description": {
+              "type": "string"
+            }
+          }
+        }
+      },
+      "paths": {
+        "type": "object",
+        "required": [],
+        "properties": {
+          "/storeys": {
+            "type": "object",
+            "required": [],
+            "properties": {
+              "get": {
+                "type": "object",
+                "required": [],
+                "properties": {
+                  "summary": {
+                    "type": "string"
+                  },
+                  "description": {
+                    "type": "string"
+                  },
+                  "responses": {
+                    "type": "object",
+                    "required": [],
+                    "properties": {
+                      "200": {
+                        "type": "object",
+                        "required": [],
+                        "properties": {
+                          "description": {
+                            "type": "string"
+                          },
+                          "content": {
+                            "type": "object",
+                            "required": [],
+                            "properties": {
+                              "application/json": {
+                                "type": "object",
+                                "required": [],
+                                "properties": {
+                                  "schema": {
+                                    "type": "array",
+                                    "items": {
+                                      "type": "string"
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "/room/id=$123": {
+            "type": "object",
+            "required": [],
+            "properties": {
+              "get": {
+                "type": "object",
+                "required": [],
+                "properties": {
+                  "summary": {
+                    "type": "string"
+                  },
+                  "description": {
+                    "type": "string"
+                  },
+                  "responses": {
+                    "type": "object",
+                    "required": [],
+                    "properties": {
+                      "200": {
+                        "type": "object",
+                        "required": [],
+                        "properties": {
+                          "description": {
+                            "type": "string"
+                          },
+                          "content": {
+                            "type": "object",
+                            "required": [],
+                            "properties": {
+                              "application/json": {
+                                "type": "object",
+                                "required": [],
+                                "properties": {
+                                  "schema": {
+                                    "type": "array",
+                                    "items": {
+                                      "type": "string"
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "/room/id=$123/room_id=$245": {
+            "type": "object",
+            "required": [],
+            "properties": {
+              "get": {
+                "type": "object",
+                "required": [],
+                "properties": {
+                  "summary": {
+                    "type": "string"
+                  },
+                  "description": {
+                    "type": "string"
+                  },
+                  "responses": {
+                    "type": "object",
+                    "required": [],
+                    "properties": {
+                      "200": {
+                        "type": "object",
+                        "required": [],
+                        "properties": {
+                          "description": {
+                            "type": "string"
+                          },
+                          "content": {
+                            "type": "object",
+                            "required": [],
+                            "properties": {
+                              "application/json": {
+                                "type": "object",
+                                "required": [],
+                                "properties": {
+                                  "schema": {
+                                    "type": "array",
+                                    "items": {
+                                      "type": "string"
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "/room/id=$123/room_id=$243": {
+            "type": "object",
+            "required": [],
+            "properties": {
+              "put": {
+                "type": "object",
+                "required": [],
+                "properties": {
+                  "summary": {
+                    "type": "string"
+                  },
+                  "description": {
+                    "type": "string"
+                  },
+                  "responses": {
+                    "type": "object",
+                    "required": [],
+                    "properties": {
+                      "205": {
+                        "type": "object",
+                        "required": [],
+                        "properties": {
+                          "description": {
+                            "type": "string"
+                          },
+                          "content": {
+                            "type": "object",
+                            "required": [],
+                            "properties": {
+                              "application/json": {
+                                "type": "object",
+                                "required": [],
+                                "properties": {
+                                  "schema": {
+                                    "type": "array",
+                                    "items": {
+                                      "type": "string"
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }

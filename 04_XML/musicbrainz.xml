@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <album title = "XSCAPE">
+        <heading>Tracklist</heading>
+        <row title="title">
+            <track>
+                <name>Love never felt so good.</name>
+                <vocals>Michael Jackson.</vocals>
+                <recording>Love never felt so good.</recording>
+                <writer>Paul Anka (in 1983) and Michael Jackson ("King of Pop") (in 1983)</writer>
+                <revision>Love Never Felt So Good (revised lyric version recorded by Johnny Mathis)</revision>
+                <rating>4 stars</rating>
+                <length>3:54</length>
+            </track>
+            <track>
+                <name>Chicago</name>
+                <vocals>Michael Jackson</vocals>
+                <rating>4.5 stars</rating>
+                <length>4:05</length>
+            </track>
+            <track>
+                <name>Loving you</name>
+                <vocals>Michael Jackson</vocals>
+                <rating>4 stars</rating>
+                <length>3:15</length>
+            </track>
+            <track>
+                <name>A place with no name</name>
+                <vocals>Michael Jackson</vocals>
+                <recording>A place with no name</recording>
+                <composer>Dewey Bunnell</composer>
+                <version>A Horse with no name</version>
+                <rating>4 stars</rating>
+                <length>5:35</length>
+            </track>
+            <track>
+                <name>Slave to the Rhythm</name>
+                <vocals>Michael Jackson</vocals>
+                <ratings>3 stars</ratings>
+                <length>4:15</length>
+            </track>
+            <track>
+                <name>Do you know where your children are</name>
+                <vocals>Michael Jackson</vocals>
+                <recording>Do you know where your children are</recording>
+                <writer>Michael Jackson.</writer>
+                <publisher>Mijac Music and  ソニー・ミュージックパブリッシング A事業部</publisher>
+                <rating>3 stars</rating>
+                <length>4:36</length>
+            </track>
+            <track>
+                <name>Blue Gangsta</name>
+                <vocals>Michael Jackson</vocals>
+                <recording>Blue Gangsta</recording>
+                <rating>3.5 stars</rating>
+                <length>4:14</length>
+            </track>
+            <track>
+                <name>Xscape</name>
+                <vocals>Michael Jackson</vocals>
+                <recording>Xspace</recording>
+                <rating>4 stars</rating>
+                <length>4:04</length>
+            </track>
+        </row>
+    </album>

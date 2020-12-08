@@ -11,7 +11,6 @@ console.log(decodedString)
 /* 
 The output of the code when you try to run this.
 
-
 S3VzaGFncmEgU2luZ2ggQmlzZW4gaXMgYW4gTTEgc3R1ZGVudCBpbiBDUFMyLg==
 --------LINE-BREAK-------
 Kushagra Singh Bisen is an M1 student in CPS2.
